@@ -1,0 +1,14 @@
+.icon {
+    width: 84px;
+    height: 84px;
+}
+
+.about-direction {
+    flex-direction: row;
+}
+
+@media (max-width: 840px) {
+    .about-direction {
+        flex-direction: column;
+    }
+}

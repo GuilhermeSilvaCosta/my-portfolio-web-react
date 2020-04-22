@@ -1,0 +1,61 @@
+{
+    "about": {
+        "aboutMe": "about me",
+        "clients": "CLIENTS",
+        "develop": "DEVELOP",
+        "development": "DEVELOPMENT",
+        "developmentDescription": "I can develop solutions, desktop applications and web and mobile products.",
+        "discuss": "DISCUSS",
+        "funnyFacts": "FUNNY FACTS",
+        "idea": "IDEA",
+        "iLikeToPlaySports": "I LIKE TO PLAY SPORTS",
+        "infiniteCoffeeCups": "INFINITE COFFEE CUPS",
+        "iReadOnly17books": "I READ ONLY 17 BOOKS",
+        "management": "MANAGEMENT",
+        "managementDescription": "Skills for managing teams and products with years of experience in the market.",
+        "noCountryVisited": "NO COYNTRY VISITED =(",
+        "problemSolving": "PROBLEM SOLVING",
+        "problemSolvingDescription": "I like the Design Thinking approach to dealing with problems that arise.",
+        "production": "PRODUCTION",
+        "services": "SERVICES",
+        "test": "TEST",
+        "workProcess": "WORK PROCESS"
+    },
+    "APR": "APR",
+    "contact": {
+        "contact": "contact",
+        "contactMe": "REACH ME",
+        "social": "LET’S SOCIALIZE"
+    },
+    "CURRENT": "CURRENT",
+    "home": {
+        "banners": ["am developer.", "am a technology lover.", "like new challenges.", "can love and hate JS at the same time;)"],
+        "hello": "Hi, my name is ",
+        "i": "I"
+    },
+    "leftNavBar": {
+        "aboutMe": "ABOUT ME",
+        "contact": "CONTACT",
+        "portfolio": "PORTFOLIO",
+        "resume": "RESUME"
+    },
+    "portfolio": {
+        "carwash4u": "Project Startup Carwash4U",
+        "guilhermeSolutions": "Source code of this portfolio to know my way of coding.",
+        "guilhermeVanessa": "My marriage",
+        "title": "portfolio"
+    },
+    "resume": {
+        "attention": "ATTENTION",
+        "cuca": "I worked at “Cuca” for more than 9 years, working mainly on products involving payroll / personnel department.",
+        "education": "EDUCATION",
+        "etec": "That's when it all started, my first steps as a developer.",
+        "fatec": "I studied systems analysis and development at FATEC, where I begin to deepen my knowledge in the area that I love so much.",
+        "message": "You recruiter / client who is visiting my site, first I am happy for your visit. I would like to say something about “Code Skills / Design Skills”… Don't give relevance to the values ​​and technologies presented, my experience forces me to say that relating skill percentage to a technology does not make much sense. Whenever I use or study a certain technology, I realize that I know less and less about it, and I need to go deeper… So how could I say that I know 100% of a technology? Why did I study 100% of your documentation? But would it make sense for me to say that I have 100% skill in a technology, but never put it into practice in any product? Or if I applied to a product, was I successful? These are questions that only numbers played will not answer…",
+        "objetivo": "My first opportunity in the job market, I was responsible for a computer lab, having to keep all the equipment working.",
+        "resume": "resume",
+        "tracknMe": "I currently work at Track'n me Serviços de Comunicação LTDA. I create usable web interfaces, using the best technologies available on the market. I love what I do.",
+        "univem": "Postgraduate course held between 2016 and 2017, where there is an opportunity to meet different professionals, different technologies and participate in the process of creating a startup.",
+        "workHistory": "WORK HISTORY"
+    }
+}
