@@ -21,7 +21,7 @@ function Portfolio() {
                         image={`${process.env.PUBLIC_URL}/assets/images/logos/myportfolio.png`}
                         className="h-64"
                         component="a"
-                        href="https://github.com/GuilhermeSilvaCosta/guilhermesilvacosta.github.io"
+                        href="https://github.com/GuilhermeSilvaCosta/my-portfolio-web-react"
                         target="_blank"
                     />
                     <CardContent>

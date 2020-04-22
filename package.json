@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "tailwind": "./node_modules/.bin/tailwind build ./src/styles/tailwind.base.css -o ./src/styles/tailwind.css",
     "predeploy": "npm run tailwind && npm run build && cp build/index.html build/404.html",
-    "deploy": "gh-pages -d build"
+    "deploy": "cd build/ && git init && git add . && git commit -m 'Update portfolio' && git remote add origin https://github.com/GuilhermeSilvaCosta/guilhermesilvacosta.github.io.git && git push -u origin master && cd .. && rm -rf build"
   },
   "eslintConfig": {
     "extends": "react-app"
