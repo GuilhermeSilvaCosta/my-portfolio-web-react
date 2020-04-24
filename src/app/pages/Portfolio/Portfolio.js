@@ -18,6 +18,37 @@ function Portfolio() {
             <div className="portfolio-grid pt-10">
                 <Card>
                     <CardMedia 
+                        image={`${process.env.PUBLIC_URL}/assets/images/logos/barber.png`}
+                        className="h-64"
+                        component="a"
+                        target="_blank"
+                        href="https://guilhermesilvacosta.github.io/gobarber-web/"
+                    />
+                    <CardContent>
+                        <Typography variant="subtitle1">Barber</Typography>
+                        <Typography color="textSecondary" variant="caption">{intl.get('portfolio.barber')}</Typography>
+                        <div className="flex justify-between">
+                            <Typography 
+                                variant="subtitle1"
+                                component="a"
+                                target="_blank"
+                                href="https://github.com/GuilhermeSilvaCosta/gobarber-api"
+                            >
+                                Backend
+                            </Typography>
+                            <Typography 
+                                variant="subtitle1"
+                                component="a"
+                                target="_blank"
+                                href="https://github.com/GuilhermeSilvaCosta/gobarber-web"
+                            >
+                                Frontend
+                            </Typography>
+                        </div>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardMedia 
                         image={`${process.env.PUBLIC_URL}/assets/images/logos/myportfolio.png`}
                         className="h-64"
                         component="a"
@@ -25,7 +56,7 @@ function Portfolio() {
                         target="_blank"
                     />
                     <CardContent>
-                        <Typography variant="subtitle1">guilherme.solutions</Typography>
+                        <Typography variant="subtitle1">guilhermesilvacosta.github.io</Typography>
                         <Typography color="textSecondary" variant="subtitle2">{intl.get('portfolio.guilhermeSolutions')}</Typography>
                     </CardContent>
                 </Card>
@@ -40,19 +71,6 @@ function Portfolio() {
                     <CardContent>
                         <Typography variant="subtitle1">Carwash4u</Typography>
                         <Typography color="textSecondary" variant="subtitle2">{intl.get('portfolio.carwash4u')}</Typography>
-                    </CardContent>
-                </Card>
-                <Card>
-                    <CardMedia 
-                        image={`${process.env.PUBLIC_URL}/assets/images/logos/guilhermeevanessa.png`}
-                        className="h-64"
-                        component="a"
-                        target="_blank"
-                        href="https://guilhermeevanessa.com.br"
-                    />
-                    <CardContent>
-                        <Typography variant="subtitle1">Guilherme e Vanessa</Typography>
-                        <Typography color="textSecondary" variant="subtitle2">{intl.get('portfolio.guilhermeVanessa')}</Typography>
                     </CardContent>
                 </Card>
             </div>
