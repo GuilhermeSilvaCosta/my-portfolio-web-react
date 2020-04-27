@@ -5,6 +5,12 @@
     max-width: 800px;
 }
 
+.portfolio-grid .button-download {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 @media(max-width: 760px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr;

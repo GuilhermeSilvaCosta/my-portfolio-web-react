@@ -40,7 +40,7 @@
         "resume": "RESUMO"
     },
     "portfolio": {
-        "barber": "Projeto para gestão de barbearia, desenvolvido em ReactJS e NodeJS",
+        "barber": "Projeto para gestão de barbearia, desenvolvido em ReactJS, NodeJS e Expo",
         "carwash4u": "Projeto Startup Carwash4U. Projeto desenvolvido em AngularJS",
         "guilhermeSolutions": "Código fonte deste portfólio para conhecer minha forma de codar.",
         "guilhermeVanessa": "Meu casamento",

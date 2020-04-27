@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Icon, Typography, Card, CardMedia, CardContent } from '@material-ui/core';
+import { Icon, Typography, Card, CardMedia, CardContent, IconButton } from '@material-ui/core';
 import intl from 'react-intl-universal';
 import googleAnalytics from 'app/services/googleAnalytics';
 
@@ -24,7 +24,14 @@ function Portfolio() {
                         target="_blank"
                         href="https://guilhermesilvacosta.github.io/gobarber-web/"
                     />
-                    <CardContent>
+                    <CardContent className="relative">
+                        <IconButton 
+                            className="button-download"
+                            component="a"
+                            href={`${process.env.PUBLIC_URL}/assets/apks/gobarber.apk`}
+                        >
+                            <Icon>android</Icon>
+                        </IconButton>
                         <Typography variant="subtitle1">Barber</Typography>
                         <Typography color="textSecondary" variant="caption">{intl.get('portfolio.barber')}</Typography>
                         <div className="flex justify-between">
@@ -35,6 +42,14 @@ function Portfolio() {
                                 href="https://github.com/GuilhermeSilvaCosta/gobarber-api"
                             >
                                 Backend
+                            </Typography>
+                            <Typography 
+                                variant="subtitle1"
+                                component="a"
+                                target="_blank"
+                                href="https://github.com/GuilhermeSilvaCosta/gobarber-mobile"
+                            >
+                                Mobile
                             </Typography>
                             <Typography 
                                 variant="subtitle1"
