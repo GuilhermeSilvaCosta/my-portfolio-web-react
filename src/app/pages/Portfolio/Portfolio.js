@@ -28,7 +28,7 @@ function Portfolio() {
                         <IconButton 
                             className="button-download"
                             component="a"
-                            href={`${process.env.PUBLIC_URL}/assets/apks/gobarber.apk`}
+                            href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40guilhermecosta/gobarber-mobile-aae1aa138b7c4fc9b913c8fa4c430217-signed.apk"
                         >
                             <Icon>android</Icon>
                         </IconButton>
