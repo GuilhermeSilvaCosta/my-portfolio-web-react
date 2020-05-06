@@ -12,7 +12,7 @@ function Portfolio() {
     }, []);
 
     return (
-        <div className="flex flex-col justify-center items-center bg-green-400 text-gray-800 p-10 pt-12 md:h-full">
+        <div className="flex flex-col justify-center items-center bg-green-400 text-gray-800 p-10 pt-12">
             <Icon fontSize="large">assignment</Icon>
             <Typography variant="h2">{intl.get('portfolio.title')}</Typography>
             <div className="portfolio-grid pt-10">
@@ -56,6 +56,52 @@ function Portfolio() {
                                 component="a"
                                 target="_blank"
                                 href="https://github.com/GuilhermeSilvaCosta/gobarber-web"
+                            >
+                                Frontend
+                            </Typography>
+                        </div>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardMedia 
+                        image={`${process.env.PUBLIC_URL}/assets/images/logos/devradar.png`}
+                        className="h-64 mobile"
+                        component="a"
+                        target="_blank"
+                        href="https://guilhermesilvacosta.github.io/web-semanaomnistack10/"
+                    />
+                    <CardContent className="relative">
+                        <IconButton 
+                            className="button-download"
+                            component="a"
+                            href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40guilhermecosta/devradar-241af6d741f848bab1157dcf6a6a2cc7-signed.apk"
+                        >
+                            <Icon>android</Icon>
+                        </IconButton>
+                        <Typography variant="subtitle1">DevRadar</Typography>
+                        <Typography color="textSecondary" variant="caption">{intl.get('portfolio.devRadar')}</Typography>
+                        <div className="flex justify-between">
+                            <Typography 
+                                variant="subtitle1"
+                                component="a"
+                                target="_blank"
+                                href="https://github.com/GuilhermeSilvaCosta/backend-semanaomnistack10"
+                            >
+                                Backend
+                            </Typography>
+                            <Typography 
+                                variant="subtitle1"
+                                component="a"
+                                target="_blank"
+                                href="https://github.com/GuilhermeSilvaCosta/mobile-semanaomnistack10"
+                            >
+                                Mobile
+                            </Typography>
+                            <Typography 
+                                variant="subtitle1"
+                                component="a"
+                                target="_blank"
+                                href="https://github.com/GuilhermeSilvaCosta/web-semanaomnistack10"
                             >
                                 Frontend
                             </Typography>

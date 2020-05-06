@@ -11,6 +11,12 @@
     right: 0px;
 }
 
+
+.portfolio-grid .mobile {
+    background-size: contain;
+    background-color: rgba(221, 221, 221, 0.89);
+}
+
 @media(max-width: 760px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr;

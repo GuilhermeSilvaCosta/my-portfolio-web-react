@@ -20,7 +20,7 @@ function TopNavbar() {
             <IconButton onClick={handleClick}>
                 <Icon className="text-white">menu</Icon>
             </IconButton>
-            <Typography className="text-white">guilherme.solutions</Typography>
+            <Typography className="text-white">Guilherme Costa</Typography>
         </div>
     )
 }
