@@ -41,6 +41,7 @@
     },
     "portfolio": {
         "barber": "Barbershop management project, developed in ReactJS, NodeJS and Expo",
+        "beTheHero": "Application to search for causes that can help.",
         "carwash4u": "Project Startup Carwash4U",
         "devRadar": "Real-time technology search engine for developers",
         "guilhermeSolutions": "Source code of this portfolio to know my way of coding.",

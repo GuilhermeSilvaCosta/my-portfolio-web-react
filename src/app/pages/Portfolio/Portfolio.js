@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Icon, Typography, Card, CardMedia, CardContent, IconButton } from '@material-ui/core';
+import { Icon, Typography, Card, CardMedia, CardContent, IconButton, CardActions, Tooltip } from '@material-ui/core';
 import intl from 'react-intl-universal';
 import googleAnalytics from 'app/services/googleAnalytics';
 
@@ -16,7 +16,7 @@ function Portfolio() {
             <Icon fontSize="large">assignment</Icon>
             <Typography variant="h2">{intl.get('portfolio.title')}</Typography>
             <div className="portfolio-grid pt-10">
-                <Card>
+                <Card className="card">
                     <CardMedia 
                         image={`${process.env.PUBLIC_URL}/assets/images/logos/barber.png`}
                         className="h-64"
@@ -25,44 +25,111 @@ function Portfolio() {
                         href="https://guilhermesilvacosta.github.io/gobarber-web/"
                     />
                     <CardContent className="relative">
-                        <IconButton 
-                            className="button-download"
-                            component="a"
-                            href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40guilhermecosta/gobarber-mobile-aae1aa138b7c4fc9b913c8fa4c430217-signed.apk"
-                        >
-                            <Icon>android</Icon>
-                        </IconButton>
+                        <Tooltip title="Download APK" className="button-download">
+                            <IconButton 
+                                className="button-download"
+                                component="a"
+                                href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40guilhermecosta/gobarber-mobile-aae1aa138b7c4fc9b913c8fa4c430217-signed.apk"
+                            >
+                                <Icon>android</Icon>
+                            </IconButton>
+                        </Tooltip>
+                        <Tooltip title="Rodar com Expo" className="button-expo">
+                            <IconButton
+                                component="a"
+                                target="_blank"
+                                href="https://expo.io/@guilhermecosta/gobarber-mobile"
+                            >
+                                <img src="/assets/icons/expo.svg" alt="expo" />
+                            </IconButton>
+                        </Tooltip>
                         <Typography variant="subtitle1">Barber</Typography>
                         <Typography color="textSecondary" variant="caption">{intl.get('portfolio.barber')}</Typography>
-                        <div className="flex justify-between">
-                            <Typography 
-                                variant="subtitle1"
-                                component="a"
-                                target="_blank"
-                                href="https://github.com/GuilhermeSilvaCosta/gobarber-api"
-                            >
-                                Backend
-                            </Typography>
-                            <Typography 
-                                variant="subtitle1"
-                                component="a"
-                                target="_blank"
-                                href="https://github.com/GuilhermeSilvaCosta/gobarber-mobile"
-                            >
-                                Mobile
-                            </Typography>
-                            <Typography 
-                                variant="subtitle1"
-                                component="a"
-                                target="_blank"
-                                href="https://github.com/GuilhermeSilvaCosta/gobarber-web"
-                            >
-                                Frontend
-                            </Typography>
-                        </div>
                     </CardContent>
+                    <CardActions className="card-actions">
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/gobarber-api"
+                        >
+                            Backend
+                        </Typography>
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/gobarber-mobile"
+                        >
+                            Mobile
+                        </Typography>
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/gobarber-web"
+                        >
+                            Frontend
+                        </Typography>
+                    </CardActions>
                 </Card>
-                <Card>
+                <Card className="card">
+                    <CardMedia 
+                        image={`${process.env.PUBLIC_URL}/assets/images/logos/bethehero.png`}
+                        className="h-64 mobile"
+                        component="a"
+                        target="_blank"
+                        href="https://guilhermesilvacosta.github.io/be-the-hero-web/"
+                    />
+                    <CardContent className="relative">
+                        <Tooltip title="Download APK" className="button-download">
+                            <IconButton 
+                                component="a"
+                                href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40guilhermecosta/bethehero-82cee740bcc347308962490d24b95bbb-signed.apk"
+                            >
+                                <Icon>android</Icon>
+                            </IconButton>
+                        </Tooltip>
+                        <Tooltip title="Rodar com Expo" className="button-expo">
+                            <IconButton
+                                component="a"
+                                target="_blank"
+                                href="https://expo.io/@guilhermecosta/bethehero"
+                            >
+                                <img src="/assets/icons/expo.svg" alt="expo" />
+                            </IconButton>
+                        </Tooltip>
+                        <Typography variant="subtitle1">Be The Hero</Typography>
+                        <Typography color="textSecondary" variant="caption">{intl.get('portfolio.beTheHero')}</Typography>
+                    </CardContent>
+                    <CardActions className="card-actions">
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/be-the-hero-api"
+                        >
+                            Backend
+                        </Typography>
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/be-the-hero-mobile"
+                        >
+                            Mobile
+                        </Typography>
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/be-the-hero-web"
+                        >
+                            Frontend
+                        </Typography>
+                    </CardActions>
+                </Card>
+                <Card className="card">
                     <CardMedia 
                         image={`${process.env.PUBLIC_URL}/assets/images/logos/devradar.png`}
                         className="h-64 mobile"
@@ -71,44 +138,54 @@ function Portfolio() {
                         href="https://guilhermesilvacosta.github.io/web-semanaomnistack10/"
                     />
                     <CardContent className="relative">
-                        <IconButton 
-                            className="button-download"
-                            component="a"
-                            href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40guilhermecosta/devradar-241af6d741f848bab1157dcf6a6a2cc7-signed.apk"
-                        >
-                            <Icon>android</Icon>
-                        </IconButton>
+                        <Tooltip title="Download APK" className="button-download">
+                            <IconButton
+                                component="a"
+                                href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40guilhermecosta/devradar-241af6d741f848bab1157dcf6a6a2cc7-signed.apk"
+                            >
+                                <Icon>android</Icon>
+                            </IconButton>
+                        </Tooltip>
+                        <Tooltip title="Rodar com Expo" className="button-expo">
+                            <IconButton
+                                component="a"
+                                target="_blank"
+                                href="https://expo.io/@guilhermecosta/devradar"
+                            >
+                                <img src="/assets/icons/expo.svg" alt="expo" />
+                            </IconButton>
+                        </Tooltip>
                         <Typography variant="subtitle1">DevRadar</Typography>
                         <Typography color="textSecondary" variant="caption">{intl.get('portfolio.devRadar')}</Typography>
-                        <div className="flex justify-between">
-                            <Typography 
-                                variant="subtitle1"
-                                component="a"
-                                target="_blank"
-                                href="https://github.com/GuilhermeSilvaCosta/backend-semanaomnistack10"
-                            >
-                                Backend
-                            </Typography>
-                            <Typography 
-                                variant="subtitle1"
-                                component="a"
-                                target="_blank"
-                                href="https://github.com/GuilhermeSilvaCosta/mobile-semanaomnistack10"
-                            >
-                                Mobile
-                            </Typography>
-                            <Typography 
-                                variant="subtitle1"
-                                component="a"
-                                target="_blank"
-                                href="https://github.com/GuilhermeSilvaCosta/web-semanaomnistack10"
-                            >
-                                Frontend
-                            </Typography>
-                        </div>
                     </CardContent>
+                    <CardActions className="card-actions">
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/backend-semanaomnistack10"
+                        >
+                            Backend
+                        </Typography>
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/mobile-semanaomnistack10"
+                        >
+                            Mobile
+                        </Typography>
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/web-semanaomnistack10"
+                        >
+                            Frontend
+                        </Typography>
+                    </CardActions>
                 </Card>
-                <Card>
+                <Card className="card">
                     <CardMedia 
                         image={`${process.env.PUBLIC_URL}/assets/images/logos/myportfolio.png`}
                         className="h-64"
@@ -121,7 +198,7 @@ function Portfolio() {
                         <Typography color="textSecondary" variant="subtitle2">{intl.get('portfolio.guilhermeSolutions')}</Typography>
                     </CardContent>
                 </Card>
-                <Card>
+                <Card className="card">
                     <CardMedia 
                         image={`${process.env.PUBLIC_URL}/assets/images/logos/carwash4u.png`}
                         className="h-64"

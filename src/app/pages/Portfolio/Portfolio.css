@@ -5,14 +5,38 @@
     max-width: 800px;
 }
 
-.portfolio-grid .button-download {
+.portfolio-grid .card {
+    position: relative;
+    display: grid;
+    grid-template-rows: 3fr 1.5fr 0.5fr;
+}
+
+.portfolio-grid .card .button-download {
     position: absolute;
     top: 0px;
     right: 0px;
 }
 
+.portfolio-grid .card .button-expo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
-.portfolio-grid .mobile {
+.portfolio-grid .card .button-expo img {
+    height: 24px;
+    width: 24px;
+}
+
+.portfolio-grid .card .card-actions{
+    /*position: absolute;
+    bottom: 0px;*/
+    width: calc(100% - 16px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-grid .card .mobile {
     background-size: contain;
     background-color: rgba(221, 221, 221, 0.89);
 }
