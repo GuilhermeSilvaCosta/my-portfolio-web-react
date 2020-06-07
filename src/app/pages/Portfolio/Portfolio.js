@@ -75,6 +75,37 @@ function Portfolio() {
                 </Card>
                 <Card className="card">
                     <CardMedia 
+                        image={`${process.env.PUBLIC_URL}/assets/icons/twitter.svg`}
+                        className="h-64 image-icon bg-black"
+                        component="a"
+                        target="_blank"
+                        href="https://guilhermesilvacosta.github.io/fera-twitter/"
+                    />
+                    <CardContent className="relative">
+                        <Typography variant="subtitle1">Twitter</Typography>
+                        <Typography color="textSecondary" variant="caption">{intl.get('portfolio.twitter')}</Typography>
+                    </CardContent>
+                    <CardActions className="card-actions">
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/fera-twitter-api"
+                        >
+                            Backend
+                        </Typography>
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/fera-twitter"
+                        >
+                            Frontend
+                        </Typography>
+                    </CardActions>
+                </Card>
+                <Card className="card">
+                    <CardMedia 
                         image={`${process.env.PUBLIC_URL}/assets/images/logos/bethehero.png`}
                         className="h-64 mobile"
                         component="a"

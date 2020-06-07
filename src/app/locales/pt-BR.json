@@ -28,17 +28,20 @@
         "social": "REDES SOCIAIS"
     },
     "CURRENT": "ATÉ O MOMENTO",
+    "FEB": "FEV",
     "home": {
         "banners": ["sou desenvolvedor.", "sou amante de tecnologia.", "gosto de novos desafios.", "consigo amar e odiar JS  ao memso tempo ;)"],
         "hello": "Olá, meu nome é ",
         "i": "Eu"
     },
+    "JAN": "JAN",
     "leftNavBar": {
         "aboutMe": "SOBRE MIM",
         "contact": "CONTATO",
         "portfolio": "PORTFÓLIO",
         "resume": "RESUMO"
     },
+    "MAY": "MAI",
     "portfolio": {
         "barber": "Projeto para gestão de barbearia, desenvolvido em ReactJS, NodeJS e Expo",
         "beTheHero": "Aplicativo para busca de causas que necessitam de ajuda.",
@@ -46,7 +49,8 @@
         "devRadar": "Sistema de procura de desenvolvedores por tecnologia em tempo real",
         "guilhermeSolutions": "Código fonte deste portfólio para conhecer minha forma de codar.",
         "guilhermeVanessa": "Meu casamento",
-        "title": "portfólio"
+        "title": "portfólio",
+        "twitter": "Projeto com algumas funcionalidades existentes do twitter, desenvolvido utilizando ReactJS e NodeJS"
     },
     "resume": {
         "attention": "ATENÇÃO",
@@ -57,7 +61,8 @@
         "message": "Você recrutador(a)/cliente que está visitando meu site, primeiramente fico feliz por sua visita. Gostaria de dizer algo sobre “Code Skills/Design Skills”… Não dê relevâncias para valores e tecnologias apresentadas, minha experiência me obriga a dizer que relacionar porcentagem de skill a uma tecnologia não faz muito sentido. Sempre que utilizo ou estudo uma determinada tecnologia, percebo que sei cada vez menos sobre ela, e preciso me aprofundar mais… Então como poderia dizer que sei 100% de uma tecnologia? Porque estudei 100% de sua documentação? Mas faria sentido eu dizer que tenho 100% de skill em uma tecnologia, porém nunca coloquei em pratica em algum produto? Ou se apliquei em um produto, obtive sucesso? São perguntas que apenas número jogados não irão te responder…",
         "objetivo": "Minha primeira oportunidade no mercado de trabalho, era responsável por um laboratório de informática, devendo manter todos os equipamentos funcionamento.",
         "resume": "resumo",
-        "tracknMe": "Atualmente, trabalho na Track'n me Serviços de Comunicação LTDA. Crio interfaces web utilizáveis, utilizando as melhores tecnologias disponíveis no mercado. Eu amo o que eu faço.",
+        "smartbpo": "Atualmente, trabalho na SmartBPO, utilizando tecnologias javascript, como Node e ReactJS",
+        "tracknMe": "Trabalhei na Track'n me Serviços de Comunicação LTDA. Criando interfaces web utilizáveis, utilizando as melhores tecnologias disponíveis no mercado. Eu amo o que eu faço.",
         "univem": "Pós-Graduação realizada entre 2016 e 2017, onde tive a oportunidade de conhecer diversos profissionais, diversas tecnologias e participação de todo processo de criação de uma startup.",
         "workHistory": "EXPERIÊNCIA PROFISSIONAL"
     }

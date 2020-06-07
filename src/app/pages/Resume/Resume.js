@@ -22,14 +22,21 @@ function Resume() {
             <div className="resume-grid">
                 <div>
                     <MasterEvent icon={'history'} title={intl.get('resume.workHistory')} />
-                    <SingleEvent first title={`${intl.get('APR')} 2019 - ${intl.get('CURRENT')}`}>
+                    <SingleEvent first title={`${intl.get('MAY')} 2020 - ${intl.get('CURRENT')}`}>
+                        <Typography variant="subtitle1">FULLSTACK DEVELOPER</Typography>
+                        <Typography variant="body2" color="textSecondary">SMARTBPO</Typography>
+                        <Typography className="text-left pt-5" variant="caption">
+                            {intl.get('resume.smartbpo')}
+                        </Typography>
+                    </SingleEvent>
+                    <SingleEvent title={`${intl.get('APR')} 2019 - ${intl.get('MAY')} 2020`}>
                         <Typography variant="subtitle1">FRONT END ENGINEER</Typography>
                         <Typography variant="body2" color="textSecondary">TRACKN'ME</Typography>
                         <Typography className="text-left pt-5" variant="caption">
                             {intl.get('resume.tracknMe')}
                         </Typography>
                     </SingleEvent>
-                    <SingleEvent title={`${intl.get('APR')} 2019 - ${intl.get('CURRENT')}`}>
+                    <SingleEvent title={`${intl.get('JAN')} 2010 - ${intl.get('FEB')} 2019`}>
                         <Typography variant="subtitle1">DESKTOP DEVELOPER</Typography>
                         <Typography variant="body2" color="textSecondary">CUCA FRESCA INFORMÁTICA LTDA.</Typography>
                         <Typography className="text-left pt-5" variant="caption">
@@ -83,12 +90,13 @@ function Resume() {
                     <div className="px-4 md:px-24">
                         <Skill className="my-2" key="1" name="HTML5" percent={90} />
                         <Skill className="my-2" key="2" name="CSS3" percent={80} />
-                        <Skill className="my-2" key="3" name="AngularJS" percent={95} />
+                        <Skill className="my-2" key="3" name="AngularJS" percent={91} />
                         <Skill className="my-2" key="4" name="Angular" percent={65} />
-                        <Skill className="my-2" key="5" name="NodeJS" percent={70} />
+                        <Skill className="my-2" key="5" name="NodeJS" percent={85} />
                         <Skill className="my-2" key="6" name="PostgreSQL" percent={80} />
-                        <Skill className="my-2" key="7" name="ReactJS" percent={84} />
-                        <Skill className="my-2" key="8" name="MongoDB" percent={45} />
+                        <Skill className="my-2" key="6" name="MySQL" percent={70} />
+                        <Skill className="my-2" key="7" name="ReactJS" percent={90} />
+                        <Skill className="my-2" key="8" name="MongoDB" percent={70} />
                         <Skill className="my-2" key="9" name="Delphi/Lazarus" percent={90} />
                     </div>
                     <div className="flex justify-center py-8">

@@ -11,6 +11,10 @@
     grid-template-rows: 3fr 1.5fr 0.5fr;
 }
 
+.portfolio-grid .card .image-icon {
+    background-size: 64px;
+}
+
 .portfolio-grid .card .button-download {
     position: absolute;
     top: 0px;
