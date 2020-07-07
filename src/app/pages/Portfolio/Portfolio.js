@@ -75,6 +75,47 @@ function Portfolio() {
                 </Card>
                 <Card className="card">
                     <CardMedia 
+                        image={`${process.env.PUBLIC_URL}/assets/icons/spotify.svg`}
+                        className="h-64 image-icon bg-black"
+                        component="a"
+                        target="_blank"
+                        href="https://expo.io/@guilhermecosta/feel-the-beat-inside"
+                    />
+                    <CardContent className="relative">
+                        <Tooltip title="Download APK" className="button-download">
+                            <IconButton 
+                                className="button-download"
+                                component="a"
+                                href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40guilhermecosta/feel-the-beat-inside-ba5a3d8808374230818f2460e3a86986-signed.apk"
+                            >
+                                <Icon>android</Icon>
+                            </IconButton>
+                        </Tooltip>
+                        <Tooltip title="Rodar com Expo" className="button-expo">
+                            <IconButton
+                                component="a"
+                                target="_blank"
+                                href="https://expo.io/@guilhermecosta/feel-the-beat-inside"
+                            >
+                                <img src="/assets/icons/expo.svg" alt="expo" />
+                            </IconButton>
+                        </Tooltip>
+                        <Typography variant="subtitle1">Spotify</Typography>
+                        <Typography color="textSecondary" variant="caption">{intl.get('portfolio.spotify')}</Typography>
+                    </CardContent>
+                    <CardActions className="card-actions">
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/feel-the-beat-inside"
+                        >
+                            Mobile
+                        </Typography>
+                    </CardActions>
+                </Card>
+                <Card className="card">
+                    <CardMedia 
                         image={`${process.env.PUBLIC_URL}/assets/icons/twitter.svg`}
                         className="h-64 image-icon bg-black"
                         component="a"
