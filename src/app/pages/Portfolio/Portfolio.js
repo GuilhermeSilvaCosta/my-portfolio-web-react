@@ -147,6 +147,54 @@ function Portfolio() {
                 </Card>
                 <Card className="card">
                     <CardMedia 
+                        image={`${process.env.PUBLIC_URL}/assets/images/logos/ecoleta.png`}
+                        className="h-64 mobile"
+                        component="a"
+                        target="_blank"
+                        href="https://guilhermesilvacosta.github.io/ecoleta-web/"
+                    />
+                    <CardContent className="relative">
+                        <Tooltip title="Rodar com Expo" className="button-expo">
+                            <IconButton
+                                component="a"
+                                target="_blank"
+                                href="https://expo.io/@guilhermecosta/ecoleta"
+                            >
+                                <img src="/assets/icons/expo.svg" alt="expo" />
+                            </IconButton>
+                        </Tooltip>
+                        <Typography variant="subtitle1">Ecoleta</Typography>
+                        <Typography color="textSecondary" variant="caption">{intl.get('portfolio.ecoleta')}</Typography>
+                    </CardContent>
+                    <CardActions className="card-actions">
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/ecoleta-api"
+                        >
+                            Backend
+                        </Typography>
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/ecoleta-mobile"
+                        >
+                            Mobile
+                        </Typography>
+                        <Typography 
+                            variant="subtitle1"
+                            component="a"
+                            target="_blank"
+                            href="https://github.com/GuilhermeSilvaCosta/ecoleta-web"
+                        >
+                            Frontend
+                        </Typography>
+                    </CardActions>
+                </Card>
+                <Card className="card">
+                    <CardMedia 
                         image={`${process.env.PUBLIC_URL}/assets/images/logos/bethehero.png`}
                         className="h-64 mobile"
                         component="a"
