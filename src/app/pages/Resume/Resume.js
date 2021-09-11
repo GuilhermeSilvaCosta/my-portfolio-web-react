@@ -22,7 +22,14 @@ function Resume() {
             <div className="resume-grid">
                 <div>
                     <MasterEvent icon={'history'} title={intl.get('resume.workHistory')} />
-                    <SingleEvent first title={`${intl.get('MAY')} 2020 - ${intl.get('CURRENT')}`}>
+                    <SingleEvent first title={`${intl.get('JUN')} 2020 - ${intl.get('CURRENT')}`}>
+                        <Typography variant="subtitle1">TECH LEAD</Typography>
+                        <Typography variant="body2" color="textSecondary">IBM</Typography>
+                        <Typography className="text-left pt-5" variant="caption">
+                            {intl.get('resume.ibm')}
+                        </Typography>
+                    </SingleEvent>
+                    <SingleEvent first title={`${intl.get('MAY')} 2020 - ${intl.get('MAY')} 2021`}>
                         <Typography variant="subtitle1">FULLSTACK DEVELOPER</Typography>
                         <Typography variant="body2" color="textSecondary">SMARTBPO</Typography>
                         <Typography className="text-left pt-5" variant="caption">
@@ -76,7 +83,7 @@ function Resume() {
                         <Button 
                             component="a" 
                             variant="outlined"
-                            href={`${process.env.PUBLIC_URL}/assets/docs/guilherme.pdf`}
+                            href={`${process.env.PUBLIC_URL}/assets/docs/${intl.get('resume.cv')}`}
                             download
                         >
                             DOWNLOAD CV

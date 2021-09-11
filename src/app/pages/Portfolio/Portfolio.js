@@ -307,6 +307,19 @@ function Portfolio() {
                 </Card>
                 <Card className="card">
                     <CardMedia 
+                        image={`${process.env.PUBLIC_URL}/assets/images/logos/pokedex.png`}
+                        className="h-64"
+                        component="a"
+                        href="https://github.com/GuilhermeSilvaCosta/pokedex-angular"
+                        target="_blank"
+                    />
+                    <CardContent>
+                        <Typography variant="subtitle1">Pokedex</Typography>
+                        <Typography color="textSecondary" variant="subtitle2">{intl.get('portfolio.pokedex')}</Typography>
+                    </CardContent>
+                </Card>
+                <Card className="card">
+                    <CardMedia 
                         image={`${process.env.PUBLIC_URL}/assets/images/logos/myportfolio.png`}
                         className="h-64"
                         component="a"

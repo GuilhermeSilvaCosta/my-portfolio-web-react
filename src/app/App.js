@@ -44,8 +44,8 @@ function App() {
       <Provider store={store}>
         <Router history={history}>
           {currentLocale &&
-          <div className="App h-screen w-screen flex flex-row antialiased">
-            <Navbar />
+          <div className="App h-screen w-screen flex flex-row antialiased relative">
+            {<Navbar />}
             <div className="absolute right-0 top-0 z-10 pt-12 md:pr-12">
               <Select 
                   value={locale} 

@@ -22,6 +22,7 @@
         "workProcess": "PROCESSO DE TRABALHO"
     },
     "APR": "ABR",
+    "JUN": "JUN",
     "contact": {
         "contact": "contato",
         "contactMe": "ENTRE EM CONTATO",
@@ -50,6 +51,7 @@
         "devRadar": "Sistema de procura de desenvolvedores por tecnologia em tempo real",
         "guilhermeSolutions": "Código fonte deste portfólio para conhecer minha forma de codar.",
         "guilhermeVanessa": "Meu casamento",
+        "pokedex": "Projeto desenvolvido em Angular para simualação de um Pokedex",
         "spotify": "Projeto com algumas funcionalidades do spotify, desenvolvido utilizando React Native",
         "title": "portfólio",
         "twitter": "Projeto com algumas funcionalidades existentes do twitter, desenvolvido utilizando ReactJS e NodeJS"
@@ -57,13 +59,15 @@
     "resume": {
         "attention": "ATENÇÃO",
         "cuca": "Trabalhei no “Cuca” por mais de 9 anos, atuando principalmente nos produtos que envolviam folha de pagamento/departamento pessoal.",
+        "cv": "CV-ptBR.pdf",
         "education": "EDUCAÇÃO",
         "etec": "Foi ai onde tudo começou, meus primeiros passos como desenvolvedor.",
         "fatec": "Estudei análise e desenvolvimento de sistemas na FATEC, onde comecei a aprofundar meus conhecimentos na área que tanto amo.",
+        "ibm": "Atualmente trabalho na IBM (Brasil), atuando como tech lead na divisão de serviços da IBM, especificamente na área de transformação do cliente.",
         "message": "Você recrutador(a)/cliente que está visitando meu site, primeiramente fico feliz por sua visita. Gostaria de dizer algo sobre “Code Skills/Design Skills”… Não dê relevâncias para valores e tecnologias apresentadas, minha experiência me obriga a dizer que relacionar porcentagem de skill a uma tecnologia não faz muito sentido. Sempre que utilizo ou estudo uma determinada tecnologia, percebo que sei cada vez menos sobre ela, e preciso me aprofundar mais… Então como poderia dizer que sei 100% de uma tecnologia? Porque estudei 100% de sua documentação? Mas faria sentido eu dizer que tenho 100% de skill em uma tecnologia, porém nunca coloquei em pratica em algum produto? Ou se apliquei em um produto, obtive sucesso? São perguntas que apenas número jogados não irão te responder…",
         "objetivo": "Minha primeira oportunidade no mercado de trabalho, era responsável por um laboratório de informática, devendo manter todos os equipamentos funcionamento.",
         "resume": "resumo",
-        "smartbpo": "Atualmente, trabalho na SmartBPO, utilizando tecnologias javascript, como Node e ReactJS",
+        "smartbpo": "Trabalhei na SmartBPO, utilizando tecnologias javascript, como Node e ReactJS",
         "tracknMe": "Trabalhei na Track'n me Serviços de Comunicação LTDA. Criando interfaces web utilizáveis, utilizando as melhores tecnologias disponíveis no mercado. Eu amo o que eu faço.",
         "univem": "Pós-Graduação realizada entre 2016 e 2017, onde tive a oportunidade de conhecer diversos profissionais, diversas tecnologias e participação de todo processo de criação de uma startup.",
         "workHistory": "EXPERIÊNCIA PROFISSIONAL"
